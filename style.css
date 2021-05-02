@@ -1,0 +1,78 @@
+#Apps{
+background-color: lightcoral;
+font-family: inherit;   
+}
+
+
+h1{
+font-size: 50px;
+color:crimson;
+    }
+
+
+#Games{
+    background-color:aquamarine;
+font-family: monospace;  
+    }
+
+#chatbot{
+    background-color:deeppink;
+font-family:sans-serif;  
+}
+
+.cimg:hover{
+transform: scale(0.9);
+}
+
+.menu{
+list-style: none;
+ font-size: 20px;
+    cursor:pointer;
+    font-family: sans-serif;
+    position:absolute;
+}
+
+.links{
+float:left;
+padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#IMG1{
+margin-top: 50px;
+    height:500px;
+width:500px;
+border-radius:50%;  
+}
+
+#Bio{
+margin-top: 50px;
+background-color :deepskyblue;
+}
+
+
+#videos{
+background-color: cornsilk;
+
+}
+
+#MYLOGO{
+height: 100px;
+width: 100px;
+border-radius: 50%;    
+    
+}    
+    
+
+
+
+
+
+
+
+
+
+
+
