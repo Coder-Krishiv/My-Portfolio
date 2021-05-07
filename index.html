@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Webpage</title>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,15 +14,28 @@
 
 <body>
     <center>
-        <ul class="menu">
-            <li class="links"><img src="Capture.JPG" id="MYLOGO"></li>
-            <li class="links"> <a href="#Bio">About me</a></li>
-            <li class="links"> <a href="#videos">My Videos</a></li>
-            <li class="links"> <a href="#Apps">My Apps</a></li>
-            <li class="links"> <a href="#Games">My Games</a></li>
-            <li class="links"> <a href="#Chatbot">My Chatbot</a></li>
-            <li class="links"> <a href="#Contact">Contact Me </a></li>
-        </ul>
+        <nav class="navbar-inverse" style="position:sticky;top:0:;z-index:99999">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href=""> Created by Krishiv Jetley</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="links"><img src="Capture.JPG" id="MYLOGO"></li>
+                    <li class="links"> <a href="#Bio">About me</a></li>
+                    <li class="links"> <a href="#videos">My Videos</a></li>
+                    <li class="links"> <a href="#Apps">My Apps</a></li>
+                    <li class="links"> <a href="#Games">My Games</a></li>
+                    <li class="links"> <a href="#Chatbot">My Chatbot</a></li>
+                    <li class="links"> <a href="#Contact">Contact Me </a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
             <section id="Bio">
                 <img src="https://i.ytimg.com/vi/qWjTp_5jMX4/maxresdefault.jpg" id="IMG1">
@@ -57,23 +70,24 @@
                     <h1>Games</h1>
                 </u>
                 <div class="carousel slide" id="myCarousel">
-                    <div class="carousel-inner">                  
-                    
-                    <div class="item active">
+                    <div class="carousel-inner">
 
-                        <a href="https://studio.code.org/projects/spritelab/IohCS1mu0z1sF53tAIirZ9AdaN6eHnECHn21uzU-dYI" target="_blank">
-                            <img src="Winnie.png" class="cimg">
-                        </a>
+                        <div class="item active">
+
+                            <a href="https://studio.code.org/projects/spritelab/IohCS1mu0z1sF53tAIirZ9AdaN6eHnECHn21uzU-dYI" target="_blank">
+                                <img src="Winnie.png" class="cimg">
+                            </a>
+                        </div>
+                        <div class="item">
+
+
+                            <a href="https://studio.code.org/projects/spritelab/Bs_vZLK1qq4LS6Gg7LfwTnRk9Ga5mfovXyHxl3wEiwE" target="_blank">
+                                <img src="Space.png" class="cimg">
+                            </a>
+                        </div>
                     </div>
-                    <div class="item">
-
-
-                        <a href="https://studio.code.org/projects/spritelab/Bs_vZLK1qq4LS6Gg7LfwTnRk9Ga5mfovXyHxl3wEiwE" target="_blank">
-                            <img src="Space.png" class="cimg">
-                        </a>
-                        </div> </div>
-                    <a class="left carousel-control" href="#myCarousel" data-slide ="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
-            </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                </div>
 
 
             </section>
